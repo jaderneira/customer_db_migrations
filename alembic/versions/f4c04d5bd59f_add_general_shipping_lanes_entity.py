@@ -18,7 +18,7 @@ depends_on = None
 
 def upgrade() -> None:
     connection = op.get_bind()
-# text
+# t
 
     op.create_table(
         "general_shipping_lanes",
